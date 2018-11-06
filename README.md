@@ -6,8 +6,15 @@ GMPR.R - R function for calculating the GMPR size factors, will be slow if sampl
 GMPR.Example.R - Illustration the use of GMPR size factors.
 
 
+ **Installation**
+---------------
+
+Run following commands in R:
+
+```
 library(devtools)
 install_github("lichen-lab/GMPR")
+```
 
 
 
