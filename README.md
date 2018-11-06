@@ -33,7 +33,7 @@ data(throat.meta)
 # Calculate GMPR size factor
 # Row - features, column - samples
 otu.tab <- t(throat.otu.tab)
-gmpr.size.factor <- GMPR(otu.tab)
+gmpr.size.factor <- GMPR(t(otu.tab))
 ###########################################################################################################
 
 # Two potential applications of GMPR size factors
