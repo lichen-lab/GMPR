@@ -1,0 +1,15 @@
+Package: GMPR
+Type: Package
+Title: Geometric Mean of Pairwise Ratios
+Version: 0.1.3
+Author: Chen Jun; Zhang Lujun
+Maintainer: Zhang Lujun <ChungLoojuen@zju.edu.cn>
+Description: a simple but effective normalization method for zeroinflated
+    sequencing data such as microbiome-Seq data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 0.12.13)
+LinkingTo: Rcpp
+NeedsCompilation: yes
+Packaged: 2017-10-26 03:30:57 UTC; Administrator
